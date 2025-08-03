@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-audit-library"
-version = "1.0.0"
+version = "1.0.1"
 description = "A comprehensive Django audit logging library for tracking model changes, user actions, and system events"
 readme = "README.md"
 requires-python = ">=3.8"

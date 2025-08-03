@@ -16,7 +16,7 @@ def read_requirements():
 
 setup(
     name='django-audit-library',
-    version='1.0.0',
+    version='1.0.1',
     description='A comprehensive Django audit logging library for tracking model changes, user actions, and system events',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',

@@ -4,11 +4,11 @@
 
 ### 1. GitHub Repository (Recommended)
 1. Create a new repository on GitHub
-2. Upload all files from `django-audit-library/` folder
+2. Upload all files from `django_audit_library/` folder
 3. Create a release with the wheel file attached
 4. Users can install with:
    ```bash
-   pip install git+https://github.com/yourusername/django-audit-library.git
+   pip install https://github.com/mcwamsie/django_audit_library.git
    ```
 
 ### 2. PyPI (Python Package Index)
@@ -52,7 +52,7 @@ Include these instructions with your distribution:
 pip install path/to/django_audit_library-1.0.0-py3-none-any.whl
 
 # Method 2: From GitHub (if uploaded)
-pip install git+https://github.com/yourusername/django-audit-library.git
+pip install git+https://github.com/mcwamsie/django_audit_library.git
 
 # Method 3: From PyPI (if published)
 pip install django-audit-library

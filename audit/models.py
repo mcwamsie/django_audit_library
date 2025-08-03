@@ -50,7 +50,7 @@ class AuditLog(models.Model):
     timestamp = models.DateTimeField(default=timezone.now)
     ip_address = models.GenericIPAddressField(null=True, blank=True)
     user_agent = models.TextField(blank=True)
-    session_key = models.CharField(max_length=40, blank=True)
+    session_key = models.CharField(max_length=40, blank=True, null=True)
     
     # Additional context
     reason = models.TextField(blank=True, help_text="Reason for the action")
